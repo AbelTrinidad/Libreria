@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript" src="js/libro.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+
+    <script type="text/javascript">
+
+
+    </script>
+</head>
+
+<body onload="init()">
+    <div id="cuerpo">
+        <h2 id="pagTitulo">ABM LIBROS <hr></h2>
+        <form action="">
+            <div id="cont-items">
+                <div class="bloq-par">
+                    <div class="blq-form-izq">Titulo:</div>
+                    <div class="blq-form-der"><input type="text" id="txtTitulo" /></div>
+                </div>
+                <div class="bloq-par">
+                    <div class="blq-form-izq">Año Edición:</div>
+                    <div class="blq-form-der"><input type="number" min="0" id="txtEdicion" required="required"/></div>
+                </div>
+                <div class="bloq-par">
+                    <div class="blq-form-izq">Editorial:</div>
+                    <div class="blq-form-der"><input type="text" id="txtEditorial" /></div>
+                </div>
+                <div class="bloq-par">
+                    <div class="blq-form-izq">Autor:</div>
+                    <div class="blq-form-der"><input type="text" id="txtAutor" /></div>
+                </div>
+            </div>
+            <div class="botones">
+                <input type="button" id="btnGuardar" value="Guardar" onclick="fnGuardar()" />
+                <input type="button" id="btnEditar" value="Editar" onclick="fnEditar()" />
+            </div>
+            <hr>
+        </form>
+        <div>
+            <h2>Listado de Libros</h2>
+            <div id="divTabla">
+
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
+
+
+
+
+<!--
+
+    <div id="cuerpo">
+        <h2>ABM LIBROS</h2>
+        <form action="">
+            <div>
+                <p>
+                    Titulo: <input type="text" id="txtTitulo" />
+                </p>
+                <p>
+                    Año Edición: <input type="number" min="0" id="txtEdicion" required="required"/>
+                </p>
+                <p>
+                    Editorial: <input type="text" id="txtEditorial" />
+                </p>
+                <p>
+                    Autor: <input type="text" id="txtAutor" />
+                </p>
+            </div>
+            <div>
+                <input type="button" id="btnGuardar" value="Guardar" onclick="fnGuardar()" />
+                <input type="button" id="btnEditar" value="Editar" onclick="fnEditar()" />
+            </div>
+        </form>
+        <div>
+            <h2>Listado de Libros</h2>
+            <div id="divTabla">
+
+            </div>
+        </div>
+    </div>
+
+-->
